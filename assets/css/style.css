@@ -1,0 +1,92 @@
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+section {
+    position:fixed;
+    margin-left: 230px;
+    width:1000;
+    height:190;   
+}    
+header{
+    position:relative;
+    left:60px;
+    float:left;
+}
+.menus{
+    position:absolute;
+    top:45px;
+    right:120px;
+    float:left;
+}
+
+h1{
+    height:40px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.body{
+    position:relative;
+    clear:left;
+    height:700px;
+    width:100%;
+    background-image: url('../images/beige-tiles.png');
+
+}
+.content{
+    position:relative;
+    top:35px;
+    left:45px;
+    height:80%;
+    width:90%;
+    background-color: white;
+}
+
+h2{
+    padding:15px;
+    margin-left:20px;
+    color:#4aaaa5;
+}
+
+hr{
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.myPic{
+    padding:10px;
+    float:left;
+}
+
+.mabelPic{
+    padding:10px;
+    float:right;
+}
+
+p{
+    padding:15px;
+    color:#777777;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height:60px;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

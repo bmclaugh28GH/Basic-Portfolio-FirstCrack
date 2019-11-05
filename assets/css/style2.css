@@ -1,0 +1,121 @@
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
+    height:100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body{
+    background-image: url('../images/beige-tiles.png');
+}
+
+p, footer, .nameHdr, .emailHdr, .messageHdr {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+.mainContent{
+    margin-left:250px;
+    margin-top:20px;
+    width:960px;
+    height:100%;
+    position:relative;
+}
+
+.nameDiv{
+    position:absolute;
+    top:30px;
+    left:70px;
+    float:left;
+    height:70px;
+    width:160px; 
+    background-color: #4aaaa5;
+    color:white;    
+    text-align:center;
+}
+
+.navDiv{
+    position:absolute;
+    right:70px;
+    top:80px;
+    float:left;
+    color:#777777;
+}
+
+.inputDiv{
+    position:relative;
+    clear:left;
+    width:960px;
+    background-color:white;
+    height:500px;
+}
+
+.contactHdr{
+    margin-left:75px;
+    position:absolute;
+    top:30px;
+    color:#4aaaa5;
+    font-size:24;
+}
+
+.nameHdr{
+    margin-left:75px;
+    position:absolute;  
+    top:80px;    
+}
+.nameIP{
+    margin-left:75px;
+    position:absolute;  
+    top:110px;    
+}
+.emailHdr{
+    margin-left:75px;
+    position:absolute;  
+    top:170px;
+    
+}
+.emailIP{
+    margin-left:75px;
+    position:absolute;  
+    top:200px;    
+}
+.messageHdr{
+    margin-left:75px;
+    position:absolute;  
+    top: 260px;
+    
+}
+.messageIP{
+    margin-left:75px;
+    position:absolute;  
+    top:290px;   
+}
+textarea {
+    width: 800px;
+    height: 100px;
+  }
+
+.btnSubmit{
+    margin-left:75px;
+    position:absolute;  
+    bottom:40px;   
+    height:40px;
+    width:100px; 
+    background-color: #4aaaa5;
+    color:white;    
+    text-align:center;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    height:80px;
+    width:100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
